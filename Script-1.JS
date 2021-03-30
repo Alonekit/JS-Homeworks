@@ -1,3 +1,6 @@
 var celsTemp = +prompt('Сколько сегодня цельсий зарядил?');
-var fahrenhTemp = (9 / 5) * celsTemp + 32;
-alert('Ого, а по Фаренгейту это: ' + Math.trunc(fahrenhTemp) + " °");
+var fahrenhTemp = `Ого, а по Фаригейту это: ${Math.trunc((9 / 5) * celsTemp + 32)} °`;
+alert(fahrenhTemp)
+
+
+

@@ -1,4 +1,4 @@
 var admin = null;
 var name = "Василий";
 admin = name;
-alert(name);
+alert(admin);
